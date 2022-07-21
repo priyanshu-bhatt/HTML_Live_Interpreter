@@ -1,0 +1,17 @@
+<script>
+
+        function lw() {
+
+                //      alert("hello")
+         document.getElementById("div1").innerHTML=document.getElementById("html").value
+        //alert(x)
+                        document.getElementById("div1").innerHTML= document.getElementById("html").value +  "<style>" + do
+cument.getElementById("Css").value +"</style>"
+                }
+
+</script>
+<h2>CSS Block</h2>
+<textarea rows="10"  onkeyup="lw()" cols="58"  style= "width:50%;height=30%"id="Css"> </textarea>
+<h2>HTML block </h2>
+<textarea rows="10" cols="58" onkeyup="lw()"  style= "width:50%;height=30%"id="html"> </textarea></br>
+<div id="div1" style= "border:blue 2px solid ; width:50%; height:50%" ></div>
